@@ -24,11 +24,11 @@ RUN apt update && \
     rm -f /usr/local/bin/COPYING && \
     rm -f /tmp/geth-alltools-*
 
-ENV GEN_NONCE="0xeddeadbabeeddead" \
+ENV GEN_NONCE="0xeddea333333ddead" \
     DATA_DIR="/root/.ethereum" \
     CHAIN_TYPE="private" \
     RUN_BOOTNODE=false \
-    GEN_CHAIN_ID=1981 \
+    GEN_CHAIN_ID=939 \
     BOOTNODE_URL=""
 
 WORKDIR /opt
